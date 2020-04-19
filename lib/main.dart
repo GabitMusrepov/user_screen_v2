@@ -13,7 +13,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: '',
       theme: ThemeData(
-
+      scaffoldBackgroundColor: Colors.grey[200],
       ),
       home: ExpenseApp(),
       debugShowCheckedModeBanner: false,
@@ -46,7 +46,7 @@ class _ExpenseAppState extends State<ExpenseApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         title: Text(
           '',
